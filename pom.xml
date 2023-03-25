@@ -11,7 +11,7 @@
     <modules>
         <module>spring_bean_instance</module>
         <module>spring_bean_lifecycle</module>
-        <module>spring_di</module>
+
         <module>spring_di_constructor</module>
         <module>spring_di_autowire</module>
         <module>Spring_di_collection</module>
@@ -19,6 +19,8 @@
         <module>spring_load_properties</module>
         <module>spring_container</module>
         <module>spring_annotation_bean</module>
+        <module>spring_autowire_di</module>
+        <module>spring_annotation_third_bean_mannager</module>
     </modules>
 
     <properties>

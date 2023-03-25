@@ -12,8 +12,10 @@
         <module name="spring_di_autowire" />
         <module name="spring_bean_instance" />
         <module name="spring_annotation_bean" />
+        <module name="spring_annotation_third_bean_mannager" />
         <module name="spring_di_setter" />
         <module name="spring_di_datasource" />
+        <module name="spring_autowire_di" />
         <module name="Spring_di_collection" />
         <module name="spring_container" />
       </profile>
