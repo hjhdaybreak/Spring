@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--    构造方法实例化-->
+    <bean id="bookDao" class="com.itheima.dao.impl.BookDaoImpl"/>
+
+    <bean id="bookService" class="com.itheima.dao.impl.BookServiceImpl">
+        <property name="bookDao" ref="bookDao"/>
+    </bean>
+
+
+    <!--    静态工厂实例化 这种方式一般是用来兼容早期的一些老系统，所以了解为主 -->
+    <bean id="orderDao" class="com.itheima.factory.OrderDaoFactory" factory-method="getOrderDao"/>
+
+
+    <!--    实例工厂实例化-->
+    <!--    <bean id="userFactory" class="com.itheima.factory.UserDaoFactory"/>-->
+    <!--    <bean id="userDao" factory-method="getUserDao" factory-bean="userFactory"/>-->
+
+    <!-- 实例工厂实例化变种 使用FactoryBean实例化Bean  大量框架都使用这种方式整合 Spring  -->
+    <bean id="userDao" class="com.itheima.factory.UserDaoFactoryBean"/>
+
+</beans>

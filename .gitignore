@@ -1,0 +1,8 @@
+# Project exclude paths
+/spring_bean_instance/target/
+/spring_bean_lifecycle/target/
+/spring_di_autowire/target/
+/Spring_di_collection/target/
+/spring_di_constructor/target/
+/spring_di_datasource/target/
+/spring_di_setter/target/
