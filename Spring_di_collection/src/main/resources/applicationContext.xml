@@ -11,7 +11,7 @@
                 <value>12</value>
                 <value>13</value>
                 <value>14</value>
-                <!--如果是引用类型  <ref ="beanId"/>-->
+                <!-- 如果是引用类型 <ref bean="beanId"/>-->
             </array>
         </property>
 

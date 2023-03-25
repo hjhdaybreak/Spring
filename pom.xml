@@ -17,6 +17,7 @@
         <module>Spring_di_collection</module>
         <module>spring_di_datasource</module>
         <module>spring_load_properties</module>
+        <module>spring_container</module>
     </modules>
 
     <properties>

@@ -14,6 +14,7 @@
         <module name="spring_di_setter" />
         <module name="spring_di_datasource" />
         <module name="Spring_di_collection" />
+        <module name="spring_container" />
       </profile>
     </annotationProcessing>
   </component>
