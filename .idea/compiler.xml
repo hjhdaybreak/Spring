@@ -11,6 +11,7 @@
         <module name="spring_load_properties" />
         <module name="spring_di_autowire" />
         <module name="spring_bean_instance" />
+        <module name="spring_annotation_bean" />
         <module name="spring_di_setter" />
         <module name="spring_di_datasource" />
         <module name="Spring_di_collection" />

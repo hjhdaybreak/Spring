@@ -18,6 +18,7 @@
         <module>spring_di_datasource</module>
         <module>spring_load_properties</module>
         <module>spring_container</module>
+        <module>spring_annotation_bean</module>
     </modules>
 
     <properties>
