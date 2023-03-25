@@ -16,6 +16,7 @@
         <module>spring_di_autowire</module>
         <module>Spring_di_collection</module>
         <module>spring_di_datasource</module>
+        <module>spring_load_properties</module>
     </modules>
 
     <properties>

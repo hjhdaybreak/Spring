@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+">
+
+    <!--    1.准备properties配置文件 2. 开启命名空间  3.加载properties配置文件  system-properties-mode NEVER 代标忽视系统中的于properties同名的属性-->
+    <context:property-placeholder location="classpath*:*.properties" system-properties-mode="NEVER"/>
+
+
+    <!--管理DruidDataSource对象-->
+    <bean class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+
+    <bean id="bookDao" class="com.itheima.dao.impl.BookDaoImpl">
+        <property name="name" value="${username}"/>
+    </bean>
+</beans>
