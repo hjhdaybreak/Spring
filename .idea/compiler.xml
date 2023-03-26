@@ -6,18 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring_bean_lifecycle" />
         <module name="spring_di_constructor" />
-        <module name="spring_load_properties" />
-        <module name="spring_di_autowire" />
         <module name="spring_bean_instance" />
         <module name="spring_annotation_bean" />
         <module name="spring_annotation_third_bean_mannager" />
         <module name="spring_di_setter" />
         <module name="spring_di_datasource" />
-        <module name="spring_autowire_di" />
         <module name="Spring_di_collection" />
         <module name="spring_container" />
+        <module name="spring_bean_lifecycle" />
+        <module name="spring_load_properties" />
+        <module name="spring_di_autowire" />
+        <module name="spring_annotation_third_bean_di" />
+        <module name="spring_autowire_di" />
       </profile>
     </annotationProcessing>
   </component>

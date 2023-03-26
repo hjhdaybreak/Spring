@@ -21,6 +21,7 @@
         <module>spring_annotation_bean</module>
         <module>spring_autowire_di</module>
         <module>spring_annotation_third_bean_mannager</module>
+        <module>spring_annotation_third_bean_DI</module>
     </modules>
 
     <properties>
