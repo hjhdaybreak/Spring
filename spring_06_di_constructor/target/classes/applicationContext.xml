@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="bookDao" class="com.itheima.dao.impl.BookDaoImpl">
+        <constructor-arg index="0" value="111"/>
+        <constructor-arg index="1" value="222"/>
+    </bean>
+
+    <!--    <bean id="bookDao" class="com.itheima.dao.impl.BookDaoImpl">-->
+    <!--        <constructor-arg name="connectName" value="111"/>-->
+    <!--        <constructor-arg name="connectNum" value="222"/>-->
+    <!--    </bean>-->
+    <!--    -->
+
+    <!--    <bean id="bookDao" class="com.itheima.dao.impl.BookDaoImpl">-->
+    <!--        <constructor-arg type="int" value="111"/>-->
+    <!--        <constructor-arg type="java.lang.String" value="222"/>-->
+    <!--    </bean>-->
+
+    <bean id="bookService" class="com.itheima.dao.impl.BookServiceImpl">
+        <constructor-arg ref="bookDao"/>
+    </bean>
+
+
+</beans>

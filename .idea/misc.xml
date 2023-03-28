@@ -1,12 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/springmvc_ 02_ssm" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc_01_quickstart" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc_08_ssm" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc_10_interceptor" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring_di_setter/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_05_di_setter/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_13_annotation_third_bean_di/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_18_aop__quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_11_annotation_bean/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_03_bean_instance/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_04_bean_lifecycle/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_06_di_constructor/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_07_di_autowire/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_08_di_collection/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_09_di_datasource/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_10_container/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_12_annotation_third_bean_mannager/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_18_aop_quickstart/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/springmvc_ 02_ssm/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc_01_quickStart/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc_01_start/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
